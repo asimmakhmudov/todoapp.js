@@ -1,6 +1,7 @@
-/* * {
-    border: 2px solid red;
-} */
+* {
+    /* border: 2px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+} 
 
 /* section style */
 section {
@@ -31,6 +32,13 @@ section {
     float: right;
     
 }
-.fa-times {
-    float: right;
+/* .list-group-item {
+    background: rgba( 85, 0, 244, 1 ) !important;
+    backdrop-filter: blur( 6px ) !important;
+    -webkit-backdrop-filter: blur( 6px ) !important;
+    border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+    color: wheat !important;
+} */
+.fa-trash {
+    color: rgb(250, 36, 36);
 }
