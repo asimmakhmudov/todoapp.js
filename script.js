@@ -84,14 +84,17 @@ function addNewItem(e) {
     if(input.value ==''){
         alert('please add new item');
     }
-    // create item
-    createItem(input.value)
-    
-    // save to local storage 
-    setItemToLS(input.value)
+    else {
+        // create item
+        createItem(input.value)
+        
+        // save to local storage 
+        setItemToLS(input.value)
 
-    // clear input
-    input.value=''
+        // clear input
+        input.value=''
+    }
+    
     
 
     e.preventDefault();
